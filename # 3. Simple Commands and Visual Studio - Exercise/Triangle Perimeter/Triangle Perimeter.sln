@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle Perimeter", "Triangle Perimeter\Triangle Perimeter.csproj", "{DC9FEEEA-93B2-4B81-AD83-2A21E3F3CAD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC9FEEEA-93B2-4B81-AD83-2A21E3F3CAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9FEEEA-93B2-4B81-AD83-2A21E3F3CAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9FEEEA-93B2-4B81-AD83-2A21E3F3CAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9FEEEA-93B2-4B81-AD83-2A21E3F3CAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E888EB4-533B-4754-9EB9-33D16B16C88F}
+	EndGlobalSection
+EndGlobal

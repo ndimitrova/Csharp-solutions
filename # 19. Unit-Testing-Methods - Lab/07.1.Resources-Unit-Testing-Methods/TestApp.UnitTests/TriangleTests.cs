@@ -1,0 +1,54 @@
+﻿using NUnit.Framework;
+using System;
+
+namespace TestApp.UnitTests;
+
+public class TriangleTests
+{
+    [Test]
+    public void Test_Triangle_OutputMatchesExpected_Size0()
+    {
+
+        // Act
+
+        string actionResult = Triangle.PrintTriangle(0);
+
+        //Assert
+
+        Assert.AreEqual("", actionResult);
+    }
+
+    [Test]
+    public void Test_Triangle_OutputMatchesExpected_Size3()
+    {
+        // Assert
+
+        string expectedResult = "1" + Environment.NewLine + "1 2"
+            + Environment.NewLine + "1 2 3" + Environment.NewLine + "1 2" + Environment.NewLine + "1";
+
+        //Act
+
+        string actionResult = Triangle.PrintTriangle(3);
+
+        // Assert
+
+        Assert.AreEqual(expectedResult, actionResult);
+    }
+
+    [Test]
+    public void Test_Triangle_OutputMatchesExpected_Size5()
+    {
+        // Assert
+
+        string expectedResult = "1" + Environment.NewLine + "1 2"
+            + Environment.NewLine + "1 2 3" + Environment.NewLine + "1 2 3 4" + Environment.NewLine + "1 2 3 4 5" + Environment.NewLine + "1 2 3 4" + Environment.NewLine + "1 2 3" + Environment.NewLine + "1 2" + Environment.NewLine + "1";
+
+        //Act
+
+        string actionResult = Triangle.PrintTriangle(5);
+
+        // Assert
+
+        Assert.AreEqual(expectedResult, actionResult);
+    }
+}
